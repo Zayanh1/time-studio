@@ -2,6 +2,8 @@
 
 A local project with a configurable clock display and a photo/video timestamp editor. The clock uses an original, minimal phone-friendly design. It is a webpage, not a replacement for the device lock screen or system clock.
 
+![Time Studio Clock Preview](assets/clock-preview.jpg)
+
 ## First release
 
 - Choose a date, time, and explicit UTC offset.
@@ -31,6 +33,8 @@ The clock also works by opening `index.html` in a browser. Metadata processing r
 3. In the metadata editor, choose a supported file and inspect it.
 4. Export a copy using the selected timestamp. Review the verification result and field changes before downloading.
 5. Keep the original and the JSON change report with the exported copy.
+
+![Time Studio Media Metadata Editor](assets/media-preview.jpg)
 
 Changing controls does not change the device clock. An explicit offset avoids silently interpreting a requested time in the server's timezone. The current release does not calculate daylight-saving rules for named cities.
 
